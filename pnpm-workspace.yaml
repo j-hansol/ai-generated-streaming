@@ -1,0 +1,10 @@
+packages:
+  - apps/*
+  - packages/*
+
+# 공급망 공격 대비: 배포된 지 14일이 지난 버전만 설치
+minimumReleaseAge: 20160
+
+# 설치 스크립트 실행을 허용할 패키지 (Vite가 쓰는 esbuild)
+allowBuilds:
+  esbuild: true
